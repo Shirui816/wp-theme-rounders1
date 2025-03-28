@@ -3,7 +3,7 @@
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 	<div class='post uncustomized-post-template'>
-	    	<h3><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
+	    	<h3 class='post-header-h3'><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
             	<div class='post-header'><div class='post-header-ine-1'></div></div>
             	<div class='post-body'>
 			<?php the_content() ?>
