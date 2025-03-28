@@ -9,9 +9,9 @@
     <link href='<?php echo get_template_directory_uri(); ?>/assets/images/shi.png' rel='icon' type='image/x-icon'/>
     <title><?php bloginfo( 'name' ); ?></title>
 	<?php wp_head() ?>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.bundle.min.js" integrity="sha512-ndrrR94PW3ckaAvvWrAzRi5JWjF71/Pw7TlSo6judANOFCmz0d+0YE+qIGamRRSnVzSvIyGs4BTtyFMm3MT/cg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script>
 		MathJax = {
  		 tex: {
@@ -40,7 +40,7 @@
 	.comment-author {
 		background: url("<?php echo get_template_directory_uri(); ?>/assets/images/icon_comment_left.gif") no-repeat 2px .3em;
 	}
-	.post h3 {background: url("<?php echo get_template_directory_uri(); ?>/assets/images/icon_arrow.gif") no-repeat 10px .5em;}
+	h3.post-header-h3 {background: url("<?php echo get_template_directory_uri(); ?>/assets/images/icon_arrow.gif") no-repeat 10px .5em;}
 	a.comment-link {background:url("<?php echo get_template_directory_uri(); ?>/assets/images/icon_comment_left.gif") no-repeat left 45%;}
 	html>body a.comment-link {background: url("<?php echo get_template_directory_uri(); ?>/assets/images/icon_comment_left.gif") no-repeat left 45%;}
 		.container-fluid {
