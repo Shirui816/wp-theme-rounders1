@@ -1,8 +1,8 @@
 /*
 Theme Name: rounders1
-Theme URI: https://www.shirui.me/blog
+Theme URI: https://blog.shirui.me
 Author: Nox
-Author URI: https://www.shirui.me/blog
+Author URI: https://blog.shirui.me/
 Version: 1.0.0
 License URI: https://opensource.org/licenses/BSD-3-Clause
 */
@@ -138,7 +138,45 @@ h2.date-header {
     min-height: 161px;
 }
 
-.post h3 {
+
+h1.wp-block-heading {
+	/*padding-left: 29px;*/
+    color: #333333;
+    font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;	
+}
+
+h2.wp-block-heading {
+	padding-left: 5px;
+    color: #333333;
+    font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;	
+}
+
+h3.wp-block-heading {
+	padding-left: 10px;
+    color: #333333;
+    font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;	
+}
+
+h4.wp-block-heading {
+	padding-left: 15px;
+    color: #333333;
+    font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;	
+}
+
+h5.wp-block-heading {
+	padding-left: 20px;
+    color: #333333;
+    font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;	
+}
+
+h6.wp-block-heading {
+	padding-left: 25px;
+    color: #333333;
+    font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;	
+}
+
+
+h3.post-header-h3 {
     margin: 0;
     line-height: 1.5em;
     /*background: url("//www2.blogblog.com/rounders/icon_arrow.gif") no-repeat 10px .5em;*/
@@ -153,10 +191,11 @@ h2.date-header {
     font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif;
 }
 
-.post h3 a, .post h3 a:visited {
+.post-header-h3 a, .post-header-h3 a:visited {
     text-decoration: none;
     color: #333333;
 }
+
 
 a.title-link:hover {
     background-color: #bbbbbb;
